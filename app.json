@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "talking-blue-apple",
+    "name": "rn-tab-view",
     "slug": "snack-401aa45c-a5aa-46fa-b856-d479d5b3c7f7",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,6 +24,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ]
   }
 }
